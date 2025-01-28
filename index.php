@@ -30,19 +30,17 @@
         </nav>
 
         <div class="icons">
-            <div class="fas fa-user" id="login-btn"></div>
-            <div class="fas fa-bars" id="menu-btn"></div>
+            <!-- check if user is logged in -->
+            <?php
+            if (isset($_COOKIE['user_id'])) {
+                echo '<a href="logout.php" class="fas fa-sign-out-alt"> logout</a>';
+            } else {
+                echo '<a href="login.php" class="fas fa-user"> login</a>';
+            }   
+            ?>
+            <!-- <div class="fas fa-user" id="login-btn"></div>
+            <div class="fas fa-bars" id="menu-btn"></div> -->
         </div>
-
-        <form action="" class="login-form">
-            <h3>login now</h3>
-            <input type="email" placeholder="your email" class="box">
-            <input type="password" placeholder="your password" class="box">
-            <p>forget your password <a href="#">click here</a> </p>
-            <input type="submit" value="login now" class="btn">
-        </form>
-
-        
 
     </header>
 
