@@ -104,25 +104,30 @@
 
         <div class="box-container">
 
-            <div class="box">
+        <div class="box">
+            <a href="./projects/music" style="text-decoration: none; color: inherit;">
                 <h3>music lessons</h3>
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio ration</p>
-                <input type="submit" value="Details" class="btn">
                 <img src="images/education1.png" alt="">
                 <!-- <input type="submit" value="send message" class="btn"> -->
                 <!-- BRISTY CODE -->
+            </a>
+        </div>
+
+            <div class="box">
+                <a href="./projects/game-moving" style="text-decoration: none; color: inherit;">
+                    <h3>sports lessons</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio ration</p>
+                    <img src="images/education2.png" alt="">
+                </a>
             </div>
 
             <div class="box">
-                <h3>sports lessons</h3>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio ration</p>
-                <img src="images/education2.png" alt="">
-            </div>
-
-            <div class="box">
-                <h3>drawing lessons</h3>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio ration</p>
-                <img src="images/education3.png" alt="">
+                <a href="./projects/drawing-game" style="text-decoration: none; color: inherit;">
+                    <h3>drawing lessons</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio ration</p>
+                    <img src="images/education3.png" alt="">
+                </a>
             </div>
 
         </div>
@@ -166,34 +171,49 @@
 
         <div class="box-container">
 
-            <div class="box">
-                <img src="images/activities1.png" alt="">
-                <h3>General Knowledge</h3>
-            </div>
-
-            <div class="box">
-                <img src="images/activities2.png" alt="">
-                <h3>Game</h3>
-                <a href="http://127.0.0.1:5503/index.html">Game 1</a> <br>
-                <a href="http://127.0.0.1:5501/tic%20tac%20index.html">Game 2</a><br>
-                <a href="http://127.0.0.1:5501/color%20index.html">Game 3</a>
-
-            </div>
-
-            <div class="box">
-                <img src="images/activities3.png" alt="">
-                <h3>Education</h3>
-            </div>
-
-            <div class="box">
-                <img src="images/activities4.png" alt="">
-                <h3>Sports</h3>
-            </div>
-
-            <div class="box">
-                <img src="images/activities6.png" alt="">
-                <h3>Baby song</h3>
-                <a href="http://127.0.0.1:5501/index.html">song</a>
+        <div class="box">
+            <img src="images/activities1.png" alt="">
+            <h3>General Knowledge</h3>
+            <div style="margin-top: 10px;">
+                <a href="./projects/math-test" style="text-decoration: none; color: #fff; background-color: #f9ba60; padding: 10px 20px; border-radius: 5px; font-size: 16px; font-weight: bold; display: inline-block; transition: background-color 0.3s ease; margin-bottom: 10px;">
+                    Math Test
+                </a>
             </div>
         </div>
-    </section>    
+
+        <div class="box">
+            <img src="images/activities2.png" alt="">
+            <h3>Game</h3>
+            <div style="margin-top: 10px;">
+                <a href="./projects/matching-game" style="text-decoration: none; color: #fff; background-color: #f9ba60; padding: 10px 20px; border-radius: 5px; font-size: 16px; font-weight: bold; display: inline-block; transition: background-color 0.3s ease; margin-bottom: 10px;">
+                    Matching Game
+                </a>
+                <a href="./projects/match-doraemon" style="text-decoration: none; color: #fff; background-color: #f9ba60; padding: 10px 20px; border-radius: 5px; font-size: 16px; font-weight: bold; display: inline-block; transition: background-color 0.3s ease; margin-bottom: 10px;">
+                    Match Doraemon
+                </a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/activities3.png" alt="">
+            <h3>Education</h3>
+            <div style="margin-top: 10px;">
+                <a href="./projects/math" style="text-decoration: none; color: #fff; background-color: #f9ba60; padding: 10px 20px; border-radius: 5px; font-size: 16px; font-weight: bold; display: inline-block; transition: background-color 0.3s ease; margin-bottom: 10px;">
+                    Math
+                </a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/activities4.png" alt="">
+            <h3>Sports</h3>
+            <div style="margin-top: 10px;">
+                <a href="./projects/b-game" style="text-decoration: none; color: #fff; background-color: #f9ba60; padding: 10px 20px; border-radius: 5px; font-size: 16px; font-weight: bold; display: inline-block; transition: background-color 0.3s ease; margin-bottom: 10px;">
+                    Bubble Shot
+                </a>
+            </div>
+        </div>
+        </div>
+        </div>    
+
+        </body>
