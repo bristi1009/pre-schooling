@@ -33,7 +33,8 @@
             <!-- check if user is logged in -->
             <?php
             if (isset($_COOKIE['user_id'])) {
-                echo '<a href="logout.php" class="auth-link"> Logout</a>';
+                echo '<a href="profile.php" class="auth-link"> Profile</a>';
+                // echo '<a href="logout.php" class="auth-link"> Logout</a>';
             } else {
                 echo '<a href="login.php" class="auth-link"> Login</a>';
             }   
