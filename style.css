@@ -669,4 +669,14 @@ section{
   }
 }
 
+.auth-link {
+  font-size: 1.7rem;
+  margin-left: 1.7rem;
+  color: var(--black);
+  cursor: pointer;
+  text-decoration: none;
+}
 
+.auth-link:hover {
+  color: var(--orange);
+}

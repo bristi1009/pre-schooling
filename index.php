@@ -33,9 +33,9 @@
             <!-- check if user is logged in -->
             <?php
             if (isset($_COOKIE['user_id'])) {
-                echo '<a href="logout.php" class="fas fa-sign-out-alt"> logout</a>';
+                echo '<a href="logout.php" class="auth-link"> Logout</a>';
             } else {
-                echo '<a href="login.php" class="fas fa-user"> login</a>';
+                echo '<a href="login.php" class="auth-link"> Login</a>';
             }   
             ?>
             <!-- <div class="fas fa-user" id="login-btn"></div>
